@@ -4,8 +4,8 @@
     "\\Backend",
     "\\Backend\\Education API",
     "\\Backend\\Education API\\Education API",
-    "\\frontend"
+    "\\Backend\\Education API\\Education API\\bin"
   ],
-  "SelectedNode": "\\Backend\\Education API\\Education API\\Program.cs",
+  "SelectedNode": "\\Backend",
   "PreviewInSolutionExplorer": false
 }

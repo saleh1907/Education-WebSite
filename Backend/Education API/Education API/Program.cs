@@ -37,6 +37,7 @@ namespace Education_API
                     Name = "Authorization",
                     Type = SecuritySchemeType.Http,
                     Scheme = "bearer",
+                   
                     BearerFormat = "JWT",
                     In = ParameterLocation.Header,
                     Description = "JWT token daxil edin. Example: Bearer {token}"
