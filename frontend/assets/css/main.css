@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+.container {
+  max-width: 1212px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0 !important;
+}
+
+ul {
+  margin-bottom: 0 !important;
+}
+
+nav {
+  border: 2px solid rgb(56, 207, 19);
+  position: relative;
+  z-index: -10;
+}
+nav .mainDivForNAvbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .mainDivForNAvbar .mainLogoDiv {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .mainDivForNAvbar .mainLogoDiv img {
+  width: 80px;
+  height: 80px;
+}
+nav .mainDivForNAvbar .pageNavbar {
+  border: 1px solid red;
+}
+nav .mainDivForNAvbar .loginRegistDiv {
+  border: 1px solid red;
+}
+nav .navLogInPage {
+  position: absolute;
+  top: 200px;
+  z-index: 10;
+  background-color: blueviolet;
+  width: 60%;
+  height: 100px;
+  border: 1px solid rgb(11, 156, 11);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
