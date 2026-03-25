@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body class="container">
@@ -11,36 +18,89 @@
       <div class="mainDivForNAvbar">
         <div class="mainLogoDiv">
           <img src="./images/Logo.jpeg" alt="yuklenir" />
-          <div>
-            <p>Beta academy</p>
+          <div class="pageNameDiv">
+            <p>Beta Academy</p>
           </div>
         </div>
         <div class="pageNavbar">
           <ul>
-            <li><a href="#">comming soon</a></li>
-            <li><a href="#">comming soon</a></li>
-            <li><a href="#">comming soon</a></li>
-            <li><a href="#">comming soon</a></li>
+            <li><a href="#">Ana səhifə</a></li>
+            <li><a href="#">Dərslər</a></li>
+            <li><a href="#">Test və Quizlər</a></li>
+            <li><a href="#">Resurslar</a></li>
+            <li><a href="#">Haqqımızda</a></li>
           </ul>
         </div>
         <div class="loginRegistDiv">
-          <div><button id="logInBtn">Login</button></div>
-          <div><button id="signUpBtn">Sign up</button></div>
+          <!-- <div id="serachDiv">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div> -->
+
+          <div class="mainDivQeydDaxil">
+            <button id="logInBtn">Daxil ol</button>
+            <button id="signUpBtn">Qeydiyyatdan keç</button>
+          </div>
         </div>
       </div>
-
+      <!-- seufeye giris bolmesi -->
       <div class="navLogInPage">
         <form action="#">
-          <h3>xos gelmisiz</h3>
-          <label for="username"> İstifadəçi adınız daxil edin</label>
-          <input type="text" id="username" placeholder="Istiafeeci adi" />
+          <h3>Xoş gelmisiniz</h3>
+          <div class="usernameDiv">
+            <label for="username"> İstifadəçi adınız daxil edin</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="Istifadəçi adı"
+              required
+            />
+          </div>
+
+          <div class="passwordDiv">
+            <label for="userPassword"> Şifrənizi daxil edin.</label>
+            <input
+              type="password"
+              id="userPassword"
+              placeholder="Şifrəniz"
+              required
+            />
+          </div>
           <br />
-          <label for="userPassword"> Şifrənizi daxil edin.</label>
-          <input type="password" id="userPassword" placeholder="Şifrənizi" />
-          <br />
-          <button type="submit">Daxil ol</button>
+          <button id="enterBtn" type="submit">Daxil ol</button>
         </form>
       </div>
+      <!-- qeydiyyat bolmesi -->
+      <div class="navRegistrPage">
+        <form action="#">
+          <div>
+            <div>
+              <label for="registrName">Adınız.</label>
+              <input type="text" id="registrName" required />
+            </div>
+            <div>
+              <label for="registrSurname">Soyadınız.</label>
+              <input type="text" id="registrSurname" required />
+            </div>
+            <div>
+              <label for="registrEmail">Email ünvanınız.</label>
+              <input type="email" id="registrEmail" required />
+            </div>
+            <div>
+              <label for="registrPassword">Soyadınız.</label>
+              <input type="password" id="registrSurname" required />
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <label for="id"></label>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- navbar exit button -->
+      <div class="logInExitBtn">X</div>
     </nav>
 
     <script src="./js/navbar.js"></script>
