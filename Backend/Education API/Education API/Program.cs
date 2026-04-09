@@ -31,7 +31,6 @@ namespace Education_API
                     Name = "Authorization",
                     Type = SecuritySchemeType.Http,
                     Scheme = "bearer",
-                   
                     BearerFormat = "JWT",
                     In = ParameterLocation.Header,
                     Description = "JWT token daxil edin. Example: Bearer {token}"
@@ -53,13 +52,6 @@ namespace Education_API
                 });
             });
 
-            builder.Services.AddScoped<IAuthService, AuthService>();
-
-            builder.Services.AddDbContext<AppDbContext>(opt =>
-            {
-                opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
-            });
-
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowFrontend", policy =>
@@ -68,6 +60,13 @@ namespace Education_API
                           .AllowAnyHeader()
                           .AllowAnyMethod();
                 });
+            });
+
+            builder.Services.AddScoped<IAuthService, AuthService>();
+
+            builder.Services.AddDbContext<AppDbContext>(opt =>
+            {
+                opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
             });
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -79,7 +78,6 @@ namespace Education_API
                         ValidateAudience = true,
                         ValidateLifetime = true,
                         ValidateIssuerSigningKey = true,
-
                         ValidIssuer = builder.Configuration["Jwt:Issuer"],
                         ValidAudience = builder.Configuration["Jwt:Audience"],
                         IssuerSigningKey = new SymmetricSecurityKey(

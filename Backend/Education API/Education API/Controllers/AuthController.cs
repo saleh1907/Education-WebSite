@@ -14,24 +14,37 @@ public class AuthController : ControllerBase
     {
         _authService = authService;
     }
-
     [HttpPost("register")]
     public async Task<IActionResult> Register([FromBody] RegisterDto dto)
     {
         try
         {
             var result = await _authService.RegisterAsync(dto);
-            return Ok(new { message = result });
+            return Ok(result);
         }
-        catch (ArgumentException ex)
+        catch (Exception ex)
         {
-            return BadRequest(new { message = ex.Message });
-        }
-        catch (Exception)
-        {
-            return StatusCode(500, new { message = "Server xetasi bas verdi." });
+            return StatusCode(500, ex.ToString());
         }
     }
+
+    //[HttpPost("register")]
+    //public async Task<IActionResult> Register([FromBody] RegisterDto dto)
+    //{
+    //    try
+    //    {
+    //        var result = await _authService.RegisterAsync(dto);
+    //        return Ok(new { message = result });
+    //    }
+    //    catch (ArgumentException ex)
+    //    {
+    //        return BadRequest(new { message = ex.Message });
+    //    }
+    //    catch (Exception)
+    //    {
+    //        return StatusCode(500, new { message = "Server xetasi bas verdi." });
+    //    }
+    //}
 
     [HttpPost("login")]
     public async Task<IActionResult> Login([FromBody] LoginDto dto)

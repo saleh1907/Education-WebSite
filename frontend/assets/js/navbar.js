@@ -93,7 +93,7 @@ qeydiyyatBtn.addEventListener("click", function (e) {
     registrPhoneNumber.value != "" &&
     registrEmail.vlue != ""
   ) {
-    fetch("http://localhost:7132", {
+    fetch("https://localhost:7132/api/Auth/register", {
       method: "POST",
       body: JSON.stringify({
         fullName: registrName.value,
