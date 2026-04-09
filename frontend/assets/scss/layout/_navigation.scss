@@ -1,0 +1,315 @@
+nav {
+  position: relative;
+  z-index: 1;
+  top: 20px;
+  .pageHead {
+    border: 1px solid rgb(255, 3, 3);
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .headImgDiv {
+      width: 70px;
+      height: 70px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .mainDivForNAvbar {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    .mainLogoDiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 80px;
+        height: 80px;
+      }
+      .pageNameDiv {
+        padding-left: 10px;
+        h3 {
+          font-weight: bold;
+          font-size: 18px;
+        }
+      }
+    }
+    .pageNavbar {
+      // border: 1px solid red;
+      ul {
+        display: flex;
+        gap: 20px;
+        li {
+          a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+              color: rgb(9 110 251);
+            }
+          }
+        }
+      }
+    }
+    .loginRegistDiv {
+      display: flex;
+
+      #serachDiv {
+        font-size: 24px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+      }
+      .mainDivQeydDaxil {
+        display: flex;
+        gap: 10px;
+        button {
+          width: 100%;
+          background-color: transparent;
+          border: 2px solid rgb(9 110 251);
+          cursor: pointer;
+          padding: 3px;
+        }
+      }
+    }
+  }
+}
+
+// qeydiyyat
+// daxil olma
+.navLogInPage {
+  position: absolute;
+  top: 200px;
+  // z-index: 1;
+  width: 100%;
+  height: 0px;
+  opacity: 0;
+  border: 1px solid rgb(9 110 251);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    h3 {
+      border: 1px solid rgb(71, 29, 221);
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      height: 35px;
+    }
+    .usernameDiv {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      label {
+        width: 50%;
+        padding-left: 5px;
+      }
+      input {
+        height: 30px;
+        width: 50%;
+        padding-left: 5px;
+        border: none;
+        border-radius: 10px;
+      }
+    }
+    .passwordDiv {
+      width: 100%;
+      display: flex;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      label {
+        width: 50%;
+        padding-left: 5px;
+      }
+      input {
+        height: 30px;
+        width: 50%;
+        padding-left: 5px;
+        border: none;
+        border-radius: 10px;
+      }
+    }
+    #enterBtn {
+      height: 38px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background-color: transparent;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(3, 112, 30);
+        color: white;
+        transition: 500ms;
+      }
+    }
+  }
+  &.hiddenDivLogin {
+    height: 250px;
+    opacity: 1;
+    transition: 800ms;
+  }
+}
+
+// qeydiyat bolmesindeki x buttonu
+.logInExitBtn {
+  position: absolute;
+  top: 200px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: rgb(3, 112, 30);
+    color: rgb(0, 0, 0);
+    transition: 300ms;
+  }
+}
+
+// qeydiyyat bolmesi
+.navRegistrPage {
+  position: absolute;
+  top: 180px;
+  z-index: -1;
+  opacity: 0;
+  width: 100%;
+  height: 0px;
+  border: 1px solid rgb(71, 29, 221);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .qeydiyyatBasliq {
+    border: 1px solid rgb(71, 29, 221);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 35px;
+    width: 80%;
+  }
+  form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    .namePasswordUsername {
+      // border: 1px solid black;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      .commonStyle {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        input {
+          border: 1px solid rgb(71, 29, 221);
+          padding-left: 5px;
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+    .classNumberEmail {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      .commonStyle {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        input {
+          border: 1px solid rgb(71, 29, 221);
+          padding-left: 5px;
+          &:focus {
+            outline: none;
+          }
+        }
+        #registrClas {
+          border: 1px solid rgb(71, 29, 221);
+          width: 170px;
+          color: black;
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+  .qeydBtnDiv {
+    padding-bottom: 20px;
+    #qeydiyyatBtn {
+      width: 250px;
+      height: 38px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background-color: transparent;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(3, 112, 30);
+        color: white;
+        transition: 500ms;
+      }
+    }
+  }
+  &.hiddenDivRegistr {
+    height: 300px;
+    opacity: 1;
+    z-index: 1;
+    transition: 900ms;
+  }
+}
+
+.registrExitBtn {
+  position: absolute;
+  top: 180px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(121, 118, 118);
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: rgb(3, 112, 30);
+    color: rgb(0, 0, 0);
+    transition: 300ms;
+  }
+}

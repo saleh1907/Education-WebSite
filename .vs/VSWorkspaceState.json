@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Backend",
+    "\\Backend\\Education API",
+    "\\Backend\\Education API\\Education API",
+    "\\Backend\\Education API\\Education API\\bin"
   ],
   "SelectedNode": "\\Backend",
   "PreviewInSolutionExplorer": false

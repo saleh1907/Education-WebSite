@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+.container {
+  max-width: 1212px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0 !important;
+}
+
+ul {
+  margin-bottom: 0 !important;
+}
+
+nav {
+  position: relative;
+  z-index: 1;
+  top: 20px;
+}
+nav .pageHead {
+  border: 1px solid rgb(255, 3, 3);
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+nav .pageHead .headImgDiv {
+  width: 70px;
+  height: 70px;
+}
+nav .pageHead .headImgDiv img {
+  width: 100%;
+  height: 100%;
+}
+nav .mainDivForNAvbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .mainDivForNAvbar .mainLogoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .mainDivForNAvbar .mainLogoDiv img {
+  width: 80px;
+  height: 80px;
+}
+nav .mainDivForNAvbar .mainLogoDiv .pageNameDiv {
+  padding-left: 10px;
+}
+nav .mainDivForNAvbar .mainLogoDiv .pageNameDiv h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+nav .mainDivForNAvbar .pageNavbar ul {
+  display: flex;
+  gap: 20px;
+}
+nav .mainDivForNAvbar .pageNavbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav .mainDivForNAvbar .pageNavbar ul li a:hover {
+  color: rgb(9, 110, 251);
+}
+nav .mainDivForNAvbar .loginRegistDiv {
+  display: flex;
+}
+nav .mainDivForNAvbar .loginRegistDiv #serachDiv {
+  font-size: 24px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+nav .mainDivForNAvbar .loginRegistDiv .mainDivQeydDaxil {
+  display: flex;
+  gap: 10px;
+}
+nav .mainDivForNAvbar .loginRegistDiv .mainDivQeydDaxil button {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid rgb(9, 110, 251);
+  cursor: pointer;
+  padding: 3px;
+}
+
+.navLogInPage {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  height: 0px;
+  opacity: 0;
+  border: 1px solid rgb(9, 110, 251);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navLogInPage form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.navLogInPage form h3 {
+  border: 1px solid rgb(71, 29, 221);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 35px;
+}
+.navLogInPage form .usernameDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navLogInPage form .usernameDiv label {
+  width: 50%;
+  padding-left: 5px;
+}
+.navLogInPage form .usernameDiv input {
+  height: 30px;
+  width: 50%;
+  padding-left: 5px;
+  border: none;
+  border-radius: 10px;
+}
+.navLogInPage form .passwordDiv {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navLogInPage form .passwordDiv label {
+  width: 50%;
+  padding-left: 5px;
+}
+.navLogInPage form .passwordDiv input {
+  height: 30px;
+  width: 50%;
+  padding-left: 5px;
+  border: none;
+  border-radius: 10px;
+}
+.navLogInPage form #enterBtn {
+  height: 38px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.navLogInPage form #enterBtn:hover {
+  background-color: rgb(3, 112, 30);
+  color: white;
+  transition: 500ms;
+}
+.navLogInPage.hiddenDivLogin {
+  height: 250px;
+  opacity: 1;
+  transition: 800ms;
+}
+
+.logInExitBtn {
+  position: absolute;
+  top: 200px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.logInExitBtn:hover {
+  background-color: rgb(3, 112, 30);
+  color: rgb(0, 0, 0);
+  transition: 300ms;
+}
+
+.navRegistrPage {
+  position: absolute;
+  top: 180px;
+  z-index: -1;
+  opacity: 0;
+  width: 100%;
+  height: 0px;
+  border: 1px solid rgb(71, 29, 221);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navRegistrPage .qeydiyyatBasliq {
+  border: 1px solid rgb(71, 29, 221);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 35px;
+  width: 80%;
+}
+.navRegistrPage form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+.navRegistrPage form .namePasswordUsername {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.navRegistrPage form .namePasswordUsername .commonStyle {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.navRegistrPage form .namePasswordUsername .commonStyle input {
+  border: 1px solid rgb(71, 29, 221);
+  padding-left: 5px;
+}
+.navRegistrPage form .namePasswordUsername .commonStyle input:focus {
+  outline: none;
+}
+.navRegistrPage form .classNumberEmail {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.navRegistrPage form .classNumberEmail .commonStyle {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.navRegistrPage form .classNumberEmail .commonStyle input {
+  border: 1px solid rgb(71, 29, 221);
+  padding-left: 5px;
+}
+.navRegistrPage form .classNumberEmail .commonStyle input:focus {
+  outline: none;
+}
+.navRegistrPage form .classNumberEmail .commonStyle #registrClas {
+  border: 1px solid rgb(71, 29, 221);
+  width: 170px;
+  color: black;
+}
+.navRegistrPage form .classNumberEmail .commonStyle #registrClas:focus {
+  outline: none;
+}
+.navRegistrPage .qeydBtnDiv {
+  padding-bottom: 20px;
+}
+.navRegistrPage .qeydBtnDiv #qeydiyyatBtn {
+  width: 250px;
+  height: 38px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.navRegistrPage .qeydBtnDiv #qeydiyyatBtn:hover {
+  background-color: rgb(3, 112, 30);
+  color: white;
+  transition: 500ms;
+}
+.navRegistrPage.hiddenDivRegistr {
+  height: 300px;
+  opacity: 1;
+  z-index: 1;
+  transition: 900ms;
+}
+
+.registrExitBtn {
+  position: absolute;
+  top: 180px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(121, 118, 118);
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.registrExitBtn:hover {
+  background-color: rgb(3, 112, 30);
+  color: rgb(0, 0, 0);
+  transition: 300ms;
+}
+
+main {
+  width: 100%;
+  height: 1000px;
+  border: 1px solid red;
+}/*# sourceMappingURL=main.css.map */

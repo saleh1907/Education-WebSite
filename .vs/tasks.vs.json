@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "görev-Education API",
+      "appliesTo": "Backend/Education API/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "görev-Education API",
+      "appliesTo": "Backend/Education API/",
+      "type": "launch"
+    }
+  ]
+}

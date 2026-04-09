@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="container">
+      <div class="pageHead">
+        <div class="headImgDiv">
+          <img src="./images/iboLogo-removebg-preview.png" alt="yuklenir" />
+        </div>
+        <h1>Beta Academy'ə xoş gəlmişsiniz</h1>
+      </div>
+      <div class="mainDivForNAvbar">
+        <div class="mainLogoDiv">
+          <img src="./images/iboLogo-removebg-preview.png" alt="yuklenir" />
+          <div class="pageNameDiv">
+            <h3>Beta Academy</h3>
+          </div>
+        </div>
+        <div class="pageNavbar">
+          <ul>
+            <li><a href="#">Ana səhifə</a></li>
+            <li><a href="#">Dərslər</a></li>
+            <li><a href="#">Test və Quizlər</a></li>
+            <li><a href="#">Resurslar</a></li>
+            <li><a href="#">Haqqımızda</a></li>
+          </ul>
+        </div>
+        <div class="loginRegistDiv">
+          <!-- <div id="serachDiv">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div> -->
+
+          <div class="mainDivQeydDaxil">
+            <button id="logInBtn">Daxil ol</button>
+            <button id="signUpBtn">Qeydiyyatdan keç</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- seufeye giris bolmesi -->
+    <div class="navLogInPage container">
+      <form action="#">
+        <h3>Xoş gelmisiniz</h3>
+        <div class="usernameDiv">
+          <label for="username"> İstifadəçi adınız daxil edin</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Istifadəçi adı"
+            required
+          />
+        </div>
+
+        <div class="passwordDiv">
+          <label for="userPassword"> Şifrənizi daxil edin.</label>
+          <input
+            type="password"
+            id="userPassword"
+            placeholder="Şifrəniz"
+            required
+          />
+        </div>
+        <br />
+        <button id="enterBtn" type="submit">Daxil ol</button>
+      </form>
+    </div>
+
+    <!-- login exit button -->
+    <div class="logInExitBtn">X</div>
+
+    <!-- qeydiyyat bolmesi  -->
+    <div class="navRegistrPage container">
+      <div class="qeydiyyatBasliq">
+        <h3>Qeydiyyatdan keçin.</h3>
+      </div>
+      <form action="#">
+        <div class="namePasswordUsername">
+          <div class="commonStyle">
+            <label for="registrName">Adınız və soyadınız:</label>
+            <input type="text" id="registrName" required />
+          </div>
+          <div class="commonStyle">
+            <label for="registrUsername">İstifadıçi adı:</label>
+            <input type="text" id="registrUsername" required />
+          </div>
+          <div class="commonStyle">
+            <label for="registrPassword">Şifrə:</label>
+            <input type="password" id="registrPassword" required />
+          </div>
+        </div>
+
+        <div class="classNumberEmail">
+          <div class="commonStyle">
+            <label for="registrClas">Təhsil pilləniz:</label>
+            <select name="class" id="registrClas">
+              <option value="" disabled selected>
+                Təhsil pillənizi secin:
+              </option>
+
+              <optgroup label="Umumi tehsil">
+                <option value="5">5-ci sinif</option>
+                <option value="6">6-ci sinif</option>
+                <option value="7">7-ci sinif</option>
+                <option value="8">8-ci sinif</option>
+                <option value="9">9-ci sinif</option>
+                <option value="10">10-ci sinif</option>
+                <option value="11">11-ci sinif</option>
+              </optgroup>
+              <optgroup label="Xüsusi hazırlıq">
+                <option value="MIQ">M.İ.Q</option>
+                <option value="Olimpiada">Olimpiada</option>
+                <option value="YOS">Y.Ö.S</option>
+              </optgroup>
+              <optgroup label="Digər">
+                <option value="Məzun">Məzun</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="commonStyle">
+            <label for="registrPhoneNumber">Əlaqə nömrəniz:</label>
+            <input
+              type="number"
+              id="registrPhoneNumber"
+              placeholder="0123456789"
+              required
+            />
+          </div>
+          <div class="commonStyle">
+            <label for="registrEmail">E-poçt ünvanınız:</label>
+            <input type="email" id="registrEmail" required />
+          </div>
+        </div>
+      </form>
+
+      <div class="qeydBtnDiv">
+        <button id="qeydiyyatBtn">Qeydiyyatdan keçin</button>
+      </div>
+    </div>
+
+    <!-- registr exit button -->
+    <div class="registrExitBtn">X</div>
+
+    <!-- <main>
+      <h1>salam</h1>
+    </main> -->
+
+    <script src="./js/navbar.js"></script>
+  </body>
+</html>
