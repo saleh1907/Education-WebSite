@@ -76,7 +76,8 @@ console.log(registrPhoneNumber);
 console.log(registrEmail);
 console.log(qeydiyyatBtn);
 
-qeydiyyatBtn.addEventListener("click", function (e) {
+qeydiyyatBtn.addEventListener("click", async function (e) {
+  e.preventDefault();
   console.log("salam gelir");
   console.log(registrName.value);
   console.log(registrUsername.value);
@@ -91,9 +92,9 @@ qeydiyyatBtn.addEventListener("click", function (e) {
     registrPassword.value != "" &&
     registrClas.value != "" &&
     registrPhoneNumber.value != "" &&
-    registrEmail.vlue != ""
+    registrEmail.value != ""
   ) {
-    fetch("http://localhost:7132", {
+    fetch("https://localhost:7132/api/Auth/register", {
       method: "POST",
       body: JSON.stringify({
         fullName: registrName.value,
@@ -104,15 +105,71 @@ qeydiyyatBtn.addEventListener("click", function (e) {
         email: registrEmail.value,
       }),
       headers: {
-        "Content-type": "application/json; charset=UTF-8",
+        "Content-type": "application/json;",
       },
     })
-      .then((res) => res.json())
+      .then(async (res) => {
+        const text = await res.text();
+        console.log("status", res.status);
+        console.log("cavab", text);
+      })
       .then((data) => console.log(data))
       .catch((err) => console.log(err));
   } else {
     alert("melumat yarimciqdir. yeniden cehd edin");
   }
-
-  e.preventDefault();
 });
+
+// qeydiyyatBtn.addEventListener("click", async function (e) {
+//   e.preventDefault();
+
+//   console.log("salam gelir");
+//   console.log(registrName.value);
+//   console.log(registrUsername.value);
+//   console.log(registrPassword.value);
+//   console.log(registrClas.value);
+//   console.log(registrPhoneNumber.value);
+//   console.log(registrEmail.value);
+
+//   if (
+//     registrName.value !== "" &&
+//     registrUsername.value !== "" &&
+//     registrPassword.value !== "" &&
+//     registrClas.value !== "" &&
+//     registrPhoneNumber.value !== "" &&
+//     registrEmail.value !== ""
+//   ) {
+//     try {
+//       const res = await fetch("https://localhost:7132/api/Auth/register", {
+//         method: "POST",
+//         headers: {
+//           "Content-Type": "application/json"
+//         },
+//         body: JSON.stringify({
+//           fullName: registrName.value,
+//           userName: registrUsername.value,
+//           password: registrPassword.value,
+//           educationLevel: registrClas.value,
+//           phoneNumber: registrPhoneNumber.value,
+//           email: registrEmail.value
+//         })
+//       });
+
+//       const text = await res.text();
+
+//       console.log("status:", res.status);
+//       console.log("cavab:", text);
+
+//       if (res.ok) {
+//         alert("Qeydiyyat uğurludur");
+//       } else {
+//         alert("Xəta: " + text);
+//       }
+//     } catch (err) {
+//       console.log("fetch error:", err);
+//       alert("Servere qosulmaq olmadi");
+//     }
+//   } else {
+//     alert("melumat yarimciqdir. yeniden cehd edin");
+//   }
+// });
