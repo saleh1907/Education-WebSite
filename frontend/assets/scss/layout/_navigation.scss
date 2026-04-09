@@ -163,7 +163,7 @@ nav {
       }
     }
   }
-  &.hiddenDiv {
+  &.hiddenDivLogin {
     height: 250px;
     opacity: 1;
     transition: 800ms;
@@ -197,13 +197,15 @@ nav {
   position: absolute;
   top: 180px;
   z-index: -1;
-  background-color: aqua;
+  opacity: 0;
   width: 100%;
+  height: 0px;
   border: 1px solid rgb(71, 29, 221);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   .qeydiyyatBasliq {
     border: 1px solid rgb(71, 29, 221);
     border-radius: 10px;
@@ -282,5 +284,32 @@ nav {
         transition: 500ms;
       }
     }
+  }
+  &.hiddenDivRegistr {
+    height: 300px;
+    opacity: 1;
+    z-index: 1;
+    transition: 900ms;
+  }
+}
+
+.registrExitBtn {
+  position: absolute;
+  top: 180px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(121, 118, 118);
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: rgb(3, 112, 30);
+    color: rgb(0, 0, 0);
+    transition: 300ms;
   }
 }
