@@ -29,10 +29,18 @@ public class AuthService:IAuthService
         if (existUser is not null)
             throw new ArgumentException("Bu email ile artiq istifadeci movcuddur.");
 
+        var existUserName = await _context.AppUsers
+            .FirstOrDefaultAsync(x => x.UserName.ToLower() == dto.UserName.ToLower());
+
+        if (existUserName is not null)
+            throw new ArgumentException("Bu istifadeci adi artiq movcuddur.");
 
         var user = new AppUser
         {
             FullName = dto.FullName,
+            UserName = dto.UserName,
+            EducationLevel = dto.EducationLevel,
+            PhoneNumber = dto.PhoneNumber,
             Email = dto.Email,
             PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password),
             Role = "Customer"

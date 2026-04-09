@@ -91,6 +91,18 @@
             "type": "string",
             "nullable": true
           },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "educationLevel": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
           "email": {
             "type": "string",
             "nullable": true

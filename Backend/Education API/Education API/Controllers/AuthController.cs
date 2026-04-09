@@ -1,6 +1,5 @@
 ﻿using Education_API.Dtos.Auth;
 using Education_API.Service.Abstractions;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Education_API.Controllers;
@@ -17,16 +16,38 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("register")]
-    public async Task<IActionResult> Register(RegisterDto dto)
+    public async Task<IActionResult> Register([FromBody] RegisterDto dto)
     {
-        var result = await _authService.RegisterAsync(dto);
-        return Ok(new { message = result });
+        try
+        {
+            var result = await _authService.RegisterAsync(dto);
+            return Ok(new { message = result });
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(new { message = ex.Message });
+        }
+        catch (Exception)
+        {
+            return StatusCode(500, new { message = "Server xetasi bas verdi." });
+        }
     }
 
     [HttpPost("login")]
-    public async Task<IActionResult> Login(LoginDto dto)
+    public async Task<IActionResult> Login([FromBody] LoginDto dto)
     {
-        var result = await _authService.LoginAsync(dto);
-        return Ok(result);
+        try
+        {
+            var result = await _authService.LoginAsync(dto);
+            return Ok(result);
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(new { message = ex.Message });
+        }
+        catch (Exception)
+        {
+            return StatusCode(500, new { message = "Server xetasi bas verdi." });
+        }
     }
 }

@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\migrations\\20260321103544_addedauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\migrations\\20260321103544_addedauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\service\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\service\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\service\\abstractions\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\service\\abstractions\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\seeder\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\seeder\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\seeder\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\seeder\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\education api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -47,12 +43,24 @@
       "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\service\\abstractions\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\service\\abstractions\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\migrations\\20260321103544_addedauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\migrations\\20260321103544_addedauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|c:\\users\\acer\\desktop\\education-website\\backend\\education api\\education api\\migrations\\20260409062709_updateregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74F665AC-FBFD-435D-896C-CA3E4ED1BE75}|Education API\\Education API.csproj|solutionrelative:education api\\migrations\\20260409062709_updateregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,20 +70,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20260321103544_AddedAuth.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Migrations\\20260321103544_AddedAuth.cs",
-              "RelativeDocumentMoniker": "Education API\\Migrations\\20260321103544_AddedAuth.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Migrations\\20260321103544_AddedAuth.cs",
-              "RelativeToolTip": "Education API\\Migrations\\20260321103544_AddedAuth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Dtos\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Education API\\Dtos\\Auth\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Dtos\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "Education API\\Dtos\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T10:35:44.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T06:17:11.855Z"
             },
             {
               "$type": "Document",
@@ -87,25 +98,24 @@
               "RelativeToolTip": "Education API\\Seeder\\DbInitializer.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T10:29:38.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T10:29:38.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Education API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Education API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwB4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T10:28:17.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Education API.csproj",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Education API.csproj",
               "RelativeDocumentMoniker": "Education API\\Education API.csproj",
@@ -113,42 +123,37 @@
               "RelativeToolTip": "Education API\\Education API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-21T09:49:02.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T09:49:02.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Education API\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\appsettings.Development.json",
               "RelativeToolTip": "Education API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-03-21T10:21:14.606Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Service\\Implementations\\AuthService.cs",
               "RelativeDocumentMoniker": "Education API\\Service\\Implementations\\AuthService.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Service\\Implementations\\AuthService.cs",
               "RelativeToolTip": "Education API\\Service\\Implementations\\AuthService.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAMwE0AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T10:18:48.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Education API\\Context\\AppDbContext.cs",
@@ -156,64 +161,36 @@
               "RelativeToolTip": "Education API\\Context\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T10:13:49.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T10:13:49.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "Education API\\Models\\AppUser.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Models\\AppUser.cs",
               "RelativeToolTip": "Education API\\Models\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T10:12:10.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T10:12:10.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\appsettings.json",
               "RelativeDocumentMoniker": "Education API\\appsettings.json",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\appsettings.json",
               "RelativeToolTip": "Education API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-03-21T10:20:53.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Program.cs",
-              "RelativeDocumentMoniker": "Education API\\Program.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Program.cs",
-              "RelativeToolTip": "Education API\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAgwEAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T10:21:33.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Education API\\Common\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "Education API\\Common\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T10:14:26.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Service\\Abstractions\\IAuthService.cs",
               "RelativeDocumentMoniker": "Education API\\Service\\Abstractions\\IAuthService.cs",
@@ -226,7 +203,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
+              "Title": "20260409062709_UpdateRegister.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Migrations\\20260409062709_UpdateRegister.cs",
+              "RelativeDocumentMoniker": "Education API\\Migrations\\20260409062709_UpdateRegister.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Migrations\\20260409062709_UpdateRegister.cs",
+              "RelativeToolTip": "Education API\\Migrations\\20260409062709_UpdateRegister.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T06:27:09.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Program.cs",
+              "RelativeDocumentMoniker": "Education API\\Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Program.cs",
+              "RelativeToolTip": "Education API\\Program.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAgwF8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:21:33.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260321103544_AddedAuth.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Migrations\\20260321103544_AddedAuth.cs",
+              "RelativeDocumentMoniker": "Education API\\Migrations\\20260321103544_AddedAuth.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Migrations\\20260321103544_AddedAuth.cs",
+              "RelativeToolTip": "Education API\\Migrations\\20260321103544_AddedAuth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:35:44.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Education API\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "Education API\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:14:26.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Education-WebSite\\Backend\\Education API\\Education API\\Dtos\\Auth\\LoginDto.cs",
               "RelativeDocumentMoniker": "Education API\\Dtos\\Auth\\LoginDto.cs",
@@ -234,8 +259,7 @@
               "RelativeToolTip": "Education API\\Dtos\\Auth\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T10:13:02.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T10:13:02.949Z"
             }
           ]
         }
