@@ -69,12 +69,12 @@ const registrEmail = document.querySelector("#registrEmail");
 
 const qeydiyyatBtn = document.querySelector("#qeydiyyatBtn");
 
-console.log(registrName);
-console.log(registrUsername);
-console.log(registrPassword);
-console.log(registrPhoneNumber);
-console.log(registrEmail);
-console.log(qeydiyyatBtn);
+// console.log(registrName);
+// console.log(registrUsername);
+// console.log(registrPassword);
+// console.log(registrPhoneNumber);
+// console.log(registrEmail);
+// console.log(qeydiyyatBtn);
 
 qeydiyyatBtn.addEventListener("click", async function (e) {
   e.preventDefault();
@@ -120,56 +120,4 @@ qeydiyyatBtn.addEventListener("click", async function (e) {
   }
 });
 
-// qeydiyyatBtn.addEventListener("click", async function (e) {
-//   e.preventDefault();
 
-//   console.log("salam gelir");
-//   console.log(registrName.value);
-//   console.log(registrUsername.value);
-//   console.log(registrPassword.value);
-//   console.log(registrClas.value);
-//   console.log(registrPhoneNumber.value);
-//   console.log(registrEmail.value);
-
-//   if (
-//     registrName.value !== "" &&
-//     registrUsername.value !== "" &&
-//     registrPassword.value !== "" &&
-//     registrClas.value !== "" &&
-//     registrPhoneNumber.value !== "" &&
-//     registrEmail.value !== ""
-//   ) {
-//     try {
-//       const res = await fetch("https://localhost:7132/api/Auth/register", {
-//         method: "POST",
-//         headers: {
-//           "Content-Type": "application/json"
-//         },
-//         body: JSON.stringify({
-//           fullName: registrName.value,
-//           userName: registrUsername.value,
-//           password: registrPassword.value,
-//           educationLevel: registrClas.value,
-//           phoneNumber: registrPhoneNumber.value,
-//           email: registrEmail.value
-//         })
-//       });
-
-//       const text = await res.text();
-
-//       console.log("status:", res.status);
-//       console.log("cavab:", text);
-
-//       if (res.ok) {
-//         alert("Qeydiyyat uğurludur");
-//       } else {
-//         alert("Xəta: " + text);
-//       }
-//     } catch (err) {
-//       console.log("fetch error:", err);
-//       alert("Servere qosulmaq olmadi");
-//     }
-//   } else {
-//     alert("melumat yarimciqdir. yeniden cehd edin");
-//   }
-// });
